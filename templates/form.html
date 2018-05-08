@@ -1,0 +1,18 @@
+{%extends "base.html"%}
+{% block title %}
+form
+{%endblock%}
+
+{%block content%}
+<form  action="/form-demo" method="get">
+  Email Address<br>
+  <input type="text" name="First_name" value = "Enter your email address" >
+<br>  Password <br>
+  <input type="text" name="First_name" value="Enter your password" >
+  <br>
+  <input type="submit" name="submit" value="Submit">
+
+
+</form>
+
+{% endblock %}
